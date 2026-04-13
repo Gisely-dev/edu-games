@@ -1,0 +1,47 @@
+<!-- Estrutura padrão do HTML-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<!-- Modelo responsivo-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!-- Titulo do navegador -->
+<title>EduGame</title>
+<!-- Link do Style (CSS) -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Corpo do documento-->
+<body>
+<!-- Estilização do fundo com "particulas" caindo, dentro do HTML -->
+<canvas id="particulas"></canvas>
+
+<div class="menu">
+<!-- Texto principal -->
+<h1>EduGame</h1>
+<!-- Imagem frontal do jogo-->
+<div class="personagem">
+<img src="https://img.freepik.com/vetores-gratis/logotipo-de-educacao-vetorial_779267-2083.jpg?semt=ais_hybrid&w=740&q=80" alt="Logo do EduGame - Educação Vetorial">
+</div>
+<!-- Descrição do jogo -->
+<p class="descricao">
+Aprenda jogando! Responda perguntas.
+</p>
+<!-- Botão para iniciar o jogo -->
+<button class="jogar" onclick="jogar()">JOGAR</button>
+<!-- Botões adicionais do menu -->
+<div class="menu-botoes">
+
+</div>
+
+</div>
+<!-- Música de fundo -->
+<audio id="musica" loop autoplay>
+<source src="https://cdn.pixabay.com/audio/2022/03/15/audio_9c6c55f5c5.mp3">
+</audio>
+<!-- Link do Script (JavaScript) -->
+<script src="inicio.js"></script>
+<!-- Fim do corpo do documento -->
+</body>
+<!-- Fim do HTML -->
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduGame</title>
+<link rel="stylesheet" href="jogo.css">
+</head>
+
+<body>
+
+<div class="game">
+
+<h1>🎮 EduGame</h1>
+
+<h2 id="pergunta"></h2>
+
+<div class="botoes">
+<button type="button" onclick="responder(0)" id="alt0" title="Alternativa 0"></button>
+<button type="button" onclick="responder(1)" id="alt1" title="Alternativa 1"></button>
+<button type="button" onclick="responder(2)" id="alt2" title="Alternativa 2"></button>
+<button type="button" onclick="responder(3)" id="alt3" title="Alternativa 3"></button>
+</div>
+
+<p id="resultado"></p>
+
+<p>Pontuação: <span id="pontos">0</span></p>
+
+<button type="button" onclick="novaPergunta()">Próxima Pergunta</button>
+<button type="button" onclick="config()">Configuração</button>
+
+</div>
+
+<script src="jogo.js"></script>
+
+</body>
+</html>
